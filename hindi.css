@@ -1,0 +1,203 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+   }
+  .navbar {
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    height: 130px;
+    background:linear-gradient(blue,rgb(206, 26, 110));
+    
+  }
+  .navdiv{
+    display: flex;
+    align-items: center;
+    
+  }
+ .logo img{
+     font-size: 35px;
+     font-weight: 600px;
+     color: black;
+     border-radius: 50%;
+    
+ }  
+ .topnav{
+    text-decoration:solid;
+    text-shadow: 30px;
+    text-decoration-color: blanchedalmond;
+    padding-left: 15px;
+    color: aquamarine;
+    
+} 
+.containerdiv{
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    background:linear-gradient(rgb(197, 53, 154),rgb(204, 224, 24));
+}
+
+.containerdiv img{
+      width: 100%;
+      height: 100%;
+      
+}
+
+.saudebazzi{
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+ border: 1px solid gray;
+  }
+.s1{
+  display: inline-block;
+    width: 80%;
+    height: 100%;
+    text-align:left;
+    margin-left: 20px;
+   
+  }
+.s1:hover {
+  
+  border: 2px solid rgb(128, 128, 128);
+}
+.containerdiv1{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background:linear-gradient(blue,rgb(203, 206, 42));
+}
+
+.containerdiv1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.kesariya{
+
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+ border: 1px solid gray;
+}
+.s2{
+display: inline-block;
+  width: 80%;
+  height: 100%;
+  text-align:left;
+  margin-left: 20px;
+ 
+}
+.s2:hover {
+
+border: 2px solid rgb(128, 128, 128);
+}
+.containerdiv2{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background:linear-gradient(rgb(0, 255, 34),rgb(180, 40, 40));
+}
+
+.containerdiv2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.malang{
+
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+ border: 1px solid gray;
+}
+.s3{
+display: inline-block;
+  width: 80%;
+  height: 100%;
+  text-align:left;
+  margin-left: 20px;
+  background:linear-gradient(rgb(0, 195, 255),rgb(206, 26, 110));
+}
+.s3:hover {
+
+border: 2px solid rgb(128, 128, 128);
+}
+.containerdiv3{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background:linear-gradient(rgb(112, 17, 54),rgb(54, 182, 161));
+}
+
+.containerdiv3 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.zalima{
+
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+ border: 1px solid gray;
+}
+.s4{
+display: inline-block;
+  width: 80%;
+  height: 100%;
+  text-align:left;
+  margin-left: 20px;
+ 
+}
+.s4:hover {
+
+border: 2px solid rgb(128, 128, 128);
+}
+.containerdiv4{
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  background:linear-gradient(rgb(255, 94, 0),rgb(26, 200, 206));
+}
+
+.containerdiv4 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.pathan{
+
+  display: inline-block;
+  width: 250px;
+  height: 200px;
+ border: 1px solid gray;
+}
+.s5{
+display: inline-block;
+  width: 80%;
+  height: 100%;
+  text-align:left;
+  margin-left: 20px;
+ 
+}
+.s5:hover {
+
+border: 2px solid rgb(128, 128, 128);
+}

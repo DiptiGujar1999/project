@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    height: 130px;
+
+}
+
+label.logo img{
+    font-size: 35px;
+    font-weight: 600px;
+     color: black;
+     border-radius: 50%;
+     margin-left: 0 100px;
+}
+nav ul{
+    float: right;
+    list-style: none ;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(52, 33, 228);
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+nav ul li a.active,a:hover{
+    background-color: rgb(201, 199, 202);
+}
+
+.dropbtn {
+  
+  color: rgb(52, 33, 228);
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family:'Times New Roman', Times, serif ;
+ margin-right: 60px;
+  font-weight: bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  margin-right: 20px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #929e92}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(201, 199, 202) ;
+}
+#checkbtn{
+    float: right;
+    line-height: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 30px;
+    color: blueviolet;
+    display: none;
+}
+#check{
+    display: none;
+
+}
+#check:checked ~ ul{
+    left: 0;
+
+}
+@media(max-width: 662px){
+   
+    #checkbtn{
+     display: block;
+    }
+    nav ul{
+        width: 80%;
+        height: 50vh;
+        background: linear-gradient(rgb(38, 39, 39),rgb(50, 178, 201));
+        position: fixed;
+        
+        top: 80px;
+        left: -100%;
+        transition: .5s;
+    }
+    nav ul li{
+        display: block;
+        text-align: left;
+       line-height: 40px;
+        margin: 10px;
+    }
+   
+    
+}
+.containerdiv{
+  
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+  } 
+  @media(max-width: 662px){
+   
+    .containerdiv img{
+    display: block;
+    width: 500px;
+    height: 50vh;
+    
+    }
+  }
+  .title{
+    text-align: center;
+    color: rgb(31, 7, 247);
+    height: 70px;
+    width: 959px;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+  }
+  @media(max-width: 662px){
+   
+    .title{
+     display: block;
+     text-align: left;
+     line-height: 40px;
+    
+    }
+  }
+  
+.musicmenu{
+    display: flex;
+        position: absolute;
+        color: blue;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        
+  }
+  .Trading{
+    height: 350px;
+      width: 320px;
+      padding-left: 10px;
+      margin: 20px;
+      margin-left: 60px;
+      text-align: center;
+      
+  }
+  .Trading img{
+    width: 320px;
+    height: 230px;
+  }
+  .Trading img:hover {
+    border: 5px solid #065697d2;
+  }
+  
+  .love{
+    height: 350px;
+      width: 320px;
+      margin: 10px;
+      text-align: center;
+  
+  }
+  .love img{
+    width: 320px;
+    height: 230px;
+  }
+  .love img:hover {
+    border: 5px solid #065697d2;
+  }
+  .hindi{
+    height: 350px;
+      width: 320px;
+      margin: 10px;
+      text-align: center;
+  
+  }
+  .hindi img{
+    width: 320px;
+    height: 230px;
+  }
+  .hindi img:hover {
+    border: 5px solid #065697d2;
+  
+  }
+  .marathi{
+  height: 350px;
+  width: 320px;
+  margin: 10px;
+  text-align: center;
+  }
+  .marathi img{
+    width: 320px;
+    height: 230px;
+  }
+  .marathi img:hover {
+    border: 5px solid #065697d2;
+    
+  }
+  @media(max-width: 662px){
+   
+    .musicmenu{
+     display: block;
+    }
+    .Trading{
+      width: 100%;
+      height: 100vh;
+      display: block;
+      text-align: center;
+      line-height: 40px;
+      margin-top: 10px;
+  }
+  .love{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    text-align: center;
+   margin-top: -400px;
+   margin-left: 60px;
+}
+.hindi{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  margin-top: -420px;
+   margin-left: 60px;
+}
+.marathi{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  margin-top: -420px;
+   margin-left: 60px;
+}
+  }

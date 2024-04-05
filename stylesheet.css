@@ -1,0 +1,132 @@
+
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #20d2db;
+  }
+  .navbar {
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: #20d2db;
+  }
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: rgb(125, 5, 129);
+    text-align: left;
+   text-decoration:rgb(91, 90, 92) ;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    padding-top: 10px;
+    border: none;
+    outline: none;
+    color: rgb(125, 5, 129);
+    padding: 3px 16px;
+    
+    font-family: inherit;
+    font-weight: bold;
+    
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(209, 207, 207);
+  }
+ 
+ul li{
+  display: inline-block;
+}
+ul li ul li{
+      display: flex;
+}
+ .containerdiv{
+  
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+} 
+.title{
+  text-align: center;
+  color: rgb(85, 84, 88);
+  height: 70px;
+  width: 959px;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: italic;
+}
+.musicmenu{
+  display: flex;
+      position: absolute;
+      color: rgb(94, 94, 99);
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      
+}
+.Trading{
+  height: 350px;
+    width: 320px;
+    padding-left: 30px;
+    margin: 10px;
+    margin-left: 30px;
+    text-align: center;
+    
+}
+.Trading img{
+  width: 320px;
+  height: 230px;
+}
+.Trading img:hover {
+  border: 5px solid #065697d2;
+}
+
+.love{
+  height: 350px;
+    width: 320px;
+    margin: 10px;
+    text-align: center;
+
+}
+.love img{
+  width: 320px;
+  height: 230px;
+}
+.love img:hover {
+  border: 5px solid #065697d2;
+}
+.hindi{
+  height: 350px;
+    width: 320px;
+    margin: 10px;
+    text-align: center;
+
+}
+.hindi img{
+  width: 320px;
+  height: 230px;
+}
+.hindi img:hover {
+  border: 5px solid #065697d2;
+
+}
+.marathi{
+height: 350px;
+width: 320px;
+margin: 10px;
+text-align: center;
+}
+.marathi img{
+  width: 320px;
+  height: 230px;
+}
+.marathi img:hover {
+  border: 5px solid #065697d2;
+  
+}
